@@ -13,7 +13,7 @@ import java.util.function.Function;
 public class JWTUtility {
 
     private String SECRET_KEY = "zxcvb";
-    private static final long DURATION = 5 * 3600 * 1000;
+    private static final long DURATION =  2592000000L;
 
     private Boolean isValidToken(String token) {
         try {
